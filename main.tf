@@ -9,7 +9,7 @@ terraform {
 
 
 provider "aws" {
-  region = "us-east-1"  # Replace with your desired region
+  region = "us-east-1a"  # Replace with your desired region
 }
 
 resource "aws_kms_key" "database_master_key" {
